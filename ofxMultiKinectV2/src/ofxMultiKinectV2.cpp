@@ -176,7 +176,6 @@ void ofxMultiKinectV2::update()
         jpeg = jpegFront;
         irPix = irPixFront;
         depthPix = depthPixFront;
-        
         if (bEnableJpegDecode) {
             colorPix = colorPixFront;
         }
